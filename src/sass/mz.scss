@@ -1,0 +1,67 @@
+body {
+	font-family: 'Quattrocento Sans', sans-serif;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+.name {
+	font-size: 28px !important;
+}
+
+.contact-container > ul > li > i {
+	width: 20px;
+}
+
+.contact-container > ul > li > a:hover {
+	color: #21e9fc;
+}
+
+.contact-container > ul > li > a {
+	font-size: 15px;
+}
+
+.languages-container > ul > li {
+	font-size: 15px;
+	margin-bottom: 5px !important;
+}
+
+.interests-container > ul > li {
+	font-size: 15px;
+	margin-bottom: 5px !important;
+}
+
+.summary > p {
+	font-size: 15px;
+	line-height: 1.5;
+}
+
+.job-title {
+	font-size: 17px !important;
+}
+
+.details {
+	line-height: 1.5;
+	font-size: 15px;
+}
+
+.project-title > a {
+	font-size: 17px;
+}
+
+.project-tagline {
+	line-height: 1.5;
+	font-size: 15px;
+}
+
+.level-bar {
+	margin-top: 3px;
+}
+
+#experience-link:hover,
+#project-link:hover,
+#attribution-link:hover,
+#about-link:hover {
+	color: #0ea5b5 !important;
+}
