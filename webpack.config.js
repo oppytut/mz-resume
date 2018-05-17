@@ -33,7 +33,7 @@ module.exports = {
 				}
 			},
 			files: [
-				'./src/sass/mz.scss',
+				'./src/sass/*',
 				'./public/index.html'
 			],
 			browser: ['chromium-browser']
