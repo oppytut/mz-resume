@@ -1,5 +1,5 @@
 # mz-resume
-This is Arief Novianto's resume. This template from <a href="https://github.com/xriley/Orbit-Theme">Orbit</a> repository. Adding Webpack.js, Sass, Browsersync for fun development. For personal use, follow this step:
+This is Arief Novianto's resume. This template from <a href="https://github.com/xriley/Orbit-Theme">Orbit</a> repository. Adding Webpack.js, Sass, and Browsersync for fun development. For personal use, follow this step:
 <ol>
   <li>Clone project<br/>
     <code>git clone https://github.com/oppytut/mz-resume.git</code>
