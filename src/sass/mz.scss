@@ -55,13 +55,18 @@ a {
 	font-size: 15px;
 }
 
+.project-web {
+	font-size: 15px;
+}
+
 .level-bar {
 	margin-top: 3px;
 }
 
-#experience-link:hover,
-#project-link:hover,
-#attribution-link:hover,
-#about-link:hover {
+.experience-link:hover,
+.project-link:hover,
+.project-web > a:hover,
+.attribution-link:hover,
+.about-link:hover {
 	color: #0ea5b5 !important;
 }
