@@ -1,73 +1,145 @@
 body {
 	font-family: 'Quattrocento Sans', sans-serif;
+
+	.wrapper {
+		.sidebar-wrapper {
+			.languages-container, .interests-container {
+				.interests-list {
+					li {
+						font-size: 15px;
+						margin-bottom: 2px !important;
+					}
+				}
+			}
+
+			.profile-container {
+				.name {
+					font-size: 26px !important;
+				}
+			}
+
+			.contact-container {
+				.contact-list {
+					li {
+						margin-bottom: 10px;
+
+						i {
+							width: 20px;
+							text-align: center;
+						}
+
+						a {
+							font-size: 15px;
+						}
+					}
+				}
+			}
+
+			.education-container {
+				.item {
+					.degree {
+						font-size: 14px;
+					}
+				}
+			}
+
+			.languages-container {
+				.interests-list {
+					.lang-desc {
+						font-size: 13px;
+					}
+				}
+			}
+		}
+
+		.main-wrapper {
+			.experiences-section, .projects-section {
+				.item {
+					margin-bottom: 15px;
+				}
+			}
+
+			.summary-section {
+				.summary {
+					p {
+						font-size: 15px;
+						line-height: 1.5;
+					}
+				}
+			}
+
+			.experiences-section {
+				.item {
+					.meta {
+						.upper-row {
+							.job-title {
+								font-size: 17px !important;
+							}
+						}
+
+						.company {
+							font-size: 13px;
+							color: #97AAC3;
+						}
+					}
+
+					.details {
+						line-height: 1.5;
+						font-size: 15px;
+					}
+				}
+			}
+
+			.projects-section {
+				.item {
+					.project-title {
+						.project-link {
+							font-size: 17px;
+						}
+					}
+
+					.project-web {
+						font-size: 15px;
+					}
+
+					.project-tagline {
+						line-height: 1.5;
+						font-size: 15px;
+					}
+
+					.project-repo > a {
+						font-size: 13px;
+						color: #97AAC3;
+					}
+				}
+			}
+
+			.skills-section {
+				.skillset {
+					.item {
+						.level-bar {
+							margin-top: 3px;
+						}
+					}
+				}
+
+			}
+		}
+	}
 }
 
 a {
 	text-decoration: none !important;
 }
 
-.name {
-	font-size: 26px !important;
+.hovered-link {
+	&:hover {
+		color: #0ea5b5 !important;
+	}
 }
 
-.contact-container > ul > li > i {
-	width: 20px;
-	text-align: center;
-}
-
-.contact-container > ul > li > a:hover {
-	color: #21e9fc;
-}
-
-.contact-container > ul > li > a {
-	font-size: 15px;
-}
-
-.languages-container > ul > li {
-	font-size: 15px;
-	margin-bottom: 5px !important;
-}
-
-.interests-container > ul > li {
-	font-size: 15px;
-	margin-bottom: 5px !important;
-}
-
-.summary > p {
-	font-size: 15px;
-	line-height: 1.5;
-}
-
-.job-title {
-	font-size: 17px !important;
-}
-
-.details {
-	line-height: 1.5;
-	font-size: 15px;
-}
-
-.project-title > a {
-	font-size: 17px;
-}
-
-.project-tagline {
-	line-height: 1.5;
-	font-size: 15px;
-}
-
-.project-web {
-	font-size: 15px;
-}
-
-.level-bar {
-	margin-top: 3px;
-}
-
-.experience-link:hover,
-.project-link:hover,
-.project-web > a:hover,
-.attribution-link:hover,
-.about-link:hover {
-	color: #0ea5b5 !important;
+.sidebar-hovered-link {
+	&:hover {
+		color: #21e9fc !important;
+	}
 }
